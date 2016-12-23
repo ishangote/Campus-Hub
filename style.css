@@ -1,0 +1,121 @@
+#ChatBig{
+	width: 500px;
+	height: 450px;
+	border: 2px solid #000;
+	margin: auto;
+	background-color: #000000;
+	opacity:0.8;
+}
+
+#ChatMessages{
+	width: 500px;
+	height: 400px;
+}
+
+#ChatText{
+	width: 495px;
+	height: 48px;
+	border-bottom: 1px solid #333;
+}
+
+#ChatText:focus{outline: none;}
+
+.backgroundc{
+	 background: url("assets/img/backgrounds/1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.form {
+                width:800px;
+                margin:50px auto;
+}
+.search {
+				height:50px;
+				width:800px;
+                padding:8px 15px;
+                background:#9ACFEA;
+                border:1px solid #dbdbdb;
+                font-size: 20px;
+}
+.button {
+				height: 50px;
+     			width: 200px;
+                position:relative;
+                
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+#noti_Container {
+        position:relative;
+        
+    }
+       
+    /* A CIRCLE LIKE BUTTON IN THE TOP MENU. */
+    #noti_Button {
+        width:30px;
+        height:30px;
+        line-height:30px;
+        border-radius:50%;
+        -moz-border-radius:50%; 
+        -webkit-border-radius:50%;
+        background:#FFF;
+        margin:-3px 10px 0 10px;
+        cursor:pointer;
+    }
+        
+    /* THE POPULAR RED NOTIFICATIONS COUNTER. */
+    #noti_Counter {
+        display:block;
+        position:absolute;
+        background:#E1141E;
+        color:#FFF;
+        font-size:12px;
+        font-weight:normal;
+        padding:1px 3px;
+        margin:-8px 0 0 25px;
+        border-radius:2px;
+        -moz-border-radius:2px; 
+        -webkit-border-radius:2px;
+        z-index:1;
+    }
+        
+    /* THE NOTIFICAIONS WINDOW. THIS REMAINS HIDDEN WHEN THE PAGE LOADS. */
+    #notifications {
+        display:none;
+        width:400px;
+        position:absolute;
+        top:30px;
+        left:0;
+        background:#19B9E7;
+        font-size:15px;
+        border:solid 2px rgba(100, 100, 100, .20);
+        -webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .20);
+        z-index: 0;
+    }
+    /* AN ARROW LIKE STRUCTURE JUST OVER THE NOTIFICATIONS WINDOW */
+    #notifications:before {         
+        content: '';
+        display:block;
+        width:0;
+        height:0;
+        color:transparent;
+        border:10px solid #CCC;
+        border-color:transparent transparent #FFF;
+        margin-top:-20px;
+        margin-left:10px;
+    }
+        
+    
+   
+
+
